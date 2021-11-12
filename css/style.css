@@ -3,11 +3,25 @@
     background-color: honeydew;
 }
 
+#homerec {
+    text-align: center;
+}
+
+#homelist {
+    text-align: center;
+    font-weight: bolder;
+}
+
 .desc {
     font-family: Cursive, sans-serif, helvetica;
     font-size: x-large;
     font-weight: bolder;
     background-color: transparent;
+}
+
+h1 {
+    text-align: center ;
+    background-color: tomato;
 }
 
 h3 {
@@ -21,4 +35,13 @@ header {
 header p {
     font-family: cursive, sans-serif;
     font-size: larger;
+}
+
+footer {
+    font-weight: bolder;
+}
+
+body img {
+    display:block;
+    margin: 0 auto;
 }
