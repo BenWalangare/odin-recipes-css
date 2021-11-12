@@ -6,9 +6,19 @@
 .desc {
     font-family: Cursive, sans-serif, helvetica;
     font-size: x-large;
+    font-weight: bolder;
     background-color: transparent;
 }
 
 h3 {
     background-color: sandybrown;
+}
+
+header {
+    text-align: center;
+}
+
+header p {
+    font-family: cursive, sans-serif;
+    font-size: larger;
 }
