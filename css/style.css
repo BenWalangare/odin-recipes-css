@@ -3,13 +3,30 @@
     background-color: honeydew;
 }
 
+html {
+    box-sizing: border-box;
+}
+
 #homerec {
     text-align: center;
 }
 
-#homelist {
+#homelist, #reclist {
     text-align: center;
     font-weight: bolder;
+    display: flex;
+    list-style: none;
+}
+
+#reclist {
+    text-align: center;
+    margin: auto;
+}
+
+.lists {
+    margin: auto;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .desc {
